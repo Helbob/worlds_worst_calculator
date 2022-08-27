@@ -9,6 +9,8 @@ const clear = document
 
 const finalResult = document.querySelector("#results");
 
+document.addEventListener("DOMContentLoaded", eventListeners);
+
 function calc() {
   let firstnumber = document.querySelector("#firstnumber").value;
   let secondNumber = document.querySelector("#secondnumber").value;
