@@ -1,5 +1,7 @@
 "use strict";
 
+document.addEventListener("DOMContentLoaded", calc);
+
 const calculate = document
   .querySelector("#calculate")
   .addEventListener("click", calc);
@@ -8,8 +10,6 @@ const clear = document
   .addEventListener("click", clearList);
 
 const finalResult = document.querySelector("#results");
-
-document.addEventListener("DOMContentLoaded", eventListeners);
 
 function calc() {
   let firstnumber = document.querySelector("#firstnumber").value;
